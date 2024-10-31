@@ -1,0 +1,179 @@
+@media (max-width: 1200px) {
+
+  /* header */
+  .header {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .header__logo {
+    width: 112px;
+    margin-right: auto;
+    margin-bottom: 27px;
+  }
+
+  .header__nav {
+    position: relative;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    width: 100%;
+    max-width: unset;
+  }
+
+  .header__nav::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100vw;
+    top: 0;
+    left: calc(-50vw + 50%);
+    background-color: var(--decor-color-1);
+  }
+
+  .header__nav::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100vw;
+    bottom: 0;
+    left: calc(-50vw + 50%);
+    background-color: var(--decor-color-1);
+  }
+
+  .header__list {
+    margin: 0 auto;
+    padding: 21px 0px;
+    gap: 24px;
+  }
+
+
+  /* hero */
+
+  .hero__content {
+    background-image: url('../..//img/hero/microphone-small.png');
+    background-position: right center;
+    background-origin: content-box;
+  }
+
+  .hero__left {
+    padding: 90px 0;
+    max-width: 539px;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+  }
+
+  .hero__descr {
+    margin-bottom: 20px;
+  }
+
+  /* broadcasts */
+  .broadcasts__list {
+    --columns: 2;
+  }
+
+  /* guests */
+  .guests__descr {
+    max-width: 536px;
+  }
+
+  .guests__photo {
+    -webkit-box-flex: 1.19;
+    -ms-flex: 1.19;
+    flex: 1.19;
+  }
+
+  /* playlists */
+  .playlists__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .playlists__list {
+    padding: 0;
+    gap: 29px;
+    --columns: 3;
+  }
+
+  .playlist {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .playlist__img {
+    width: 112px;
+  }
+
+  .playlist__data {
+    padding: 39px 8px;
+  }
+
+  .playlist__flag {
+    left: 0;
+  }
+
+  /* adv */
+  .adv {
+    padding-bottom: 94px;
+  }
+
+  .adv__left {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  .adv__new-img {
+    top: 22%;
+  }
+
+  /* about */
+  .about__title {
+    margin-bottom: 11px;
+  }
+
+  .about__top {
+    margin-bottom: 29px;
+  }
+
+  .about__text {
+    width: 67%;
+  }
+
+  .about__top::after {
+    display: none;
+  }
+
+  .about__list {
+    --columns: 2;
+  }
+
+  .about__name {
+    margin-bottom: 7px;
+  }
+
+  .about__img {
+    margin-bottom: 30px;
+  }
+
+  .form {
+    gap: 30px;
+    width: 100%;
+  }
+
+  .form__name,
+  .form__mail {
+    padding: 22px 32px;
+  }
+
+}

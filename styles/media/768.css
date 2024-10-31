@@ -1,0 +1,235 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 15 version
+*/
+
+@media (max-width: 992px) {
+  .container {
+    padding-left: 114px;
+    padding-right: 114px;
+  }
+
+  /* hero */
+  .hero__content {
+    background-image: unset;
+  }
+
+  .header__link {
+    font-size: 16px;
+  }
+
+  /* hero */
+  .hero__left {
+    padding-top: 92px;
+  }
+
+  /* podcasts */
+  .podcasts__list {
+    --columns: 1;
+  }
+
+  .podcasts__title {
+    margin-bottom: 27px;
+  }
+
+  /* broadcasts */
+  .broadcasts {
+    padding-bottom: 0;
+  }
+
+  .broadcasts__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .broadcasts__title {
+    margin-bottom: 123px;
+  }
+
+  .broadcasts__list {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .broadcasts__list::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(-50vw + 50%);
+    height: 1px;
+    width: 100vw;
+    background-color: #E6E8EC;
+  }
+
+  .archive {
+    position: relative;
+    max-width: 345px;
+    padding-left: 90px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    background-position-y: 31px;
+    background-image: url('../../img/broadcasts/mic-small.png');
+  }
+
+  .archive__btn {
+    margin-bottom: 8px;
+  }
+
+  /* guests */
+  .guests__list {
+    gap: 54px;
+  }
+
+  .guests__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .guests__info {
+    max-width: 362px;
+  }
+
+  .guests__details {
+    margin-bottom: 30px;
+  }
+
+  /* playlists */
+  .playlists {
+    padding-bottom: 112px;
+  }
+
+  .playlists__title {
+    margin-bottom: 16px;
+  }
+
+  .playlists__list {
+    --columns: 2;
+  }
+
+  /* adv */
+  .adv {
+    padding-top: 75px;
+  }
+
+  .adv__new-img {
+    top: 0%;
+  }
+
+  .adv__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .adv__title {
+    padding-bottom: 34px;
+    max-width: 441px;
+    margin-bottom: 16px;
+  }
+
+  /* about */
+  .about__top {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 174px;
+  }
+
+  .about__top::after {
+    top: 100%;
+    right: 137px;
+    display: block;
+    width: unset;
+    left: calc(-50vw + 50%);
+    height: 150px;
+    background-image: url('../../img/about/spiral1.svg');
+    background-repeat: repeat-x;
+    background-position: right 29px;
+  }
+
+  .about__top::before {
+    top: 100%;
+    width: 112px;
+    height: 150px;
+    background-position: right 29px;
+    background-size: 100%;
+  }
+
+  .about__text {
+    width: 100%;
+  }
+
+  .about__list {
+    gap: 30px;
+    /* padding-top: 144px; */
+  }
+
+  .about__name {
+    margin-bottom: 6px;
+  }
+
+  .about__img {
+    margin-bottom: 29px;
+  }
+
+  .form__user {
+    gap: 33px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  /* footer */
+  .footer__top-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer__top {
+    padding-bottom: 38px;
+  }
+
+  .footer__left {
+    margin: 0 auto;
+    margin-bottom: 77px;
+  }
+
+  .footer__list {
+    width: 100%;
+    row-gap: 30px;
+  }
+
+  .footer__item {
+    margin-bottom: 30px;
+  }
+
+  .social {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .social__link svg {
+    height: 36px;
+    width: 36px;
+  }
+
+  .footer__sublist {
+    row-gap: 30px;
+  }
+
+}
